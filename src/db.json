@@ -1,0 +1,195 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cloud",
+      "icon": "/images/cloud-computing.svg",
+      "introduction": "Cloud computing revolutionizes the way we store, access, and process data. It's a paradigm shift in computing, offering on-demand access to a shared pool of configurable computing resources over the internet. This transformative technology enables businesses and individuals to scale their operations, innovate faster, and access powerful computing capabilities without the need for owning and maintaining physical hardware. From storage to complex computational tasks, the cloud empowers users to harness the immense potential of remote servers, enhancing flexibility, efficiency, and collaboration in today's digital landscape.",
+      "courses": [
+        {
+          "id": 101,
+          "title": "Introduction to Cloud Computing",
+          "instructor": "John Smith",
+          "duration": "4 weeks",
+          "category": "Cloud",
+          "image": "https://t4.ftcdn.net/jpg/02/19/97/71/360_F_219977199_H4YRCfCvo90tYvHigf53ZWFpFiNexbW5.jpg",
+          "image2": "https://images.unsplash.com/photo-1577760258779-e787a1733016?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 102,
+          "title": "Advanced Cloud Architecture",
+          "instructor": "Jane Doe",
+          "duration": "6 weeks",
+          "category": "Cloud",
+          "image": "https://thumbs.dreamstime.com/z/green-screen-funny-face-expression-happy-woman-posing-tongue-out-peace-sign-carefree-personality-portrait-female-model-274923728.jpg?w=992",
+          "image2": "https://plus.unsplash.com/premium_photo-1682145723071-33e2207f4eb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 103,
+          "title": "Cloud Security Fundamentals",
+          "instructor": "Michael Johnson",
+          "duration": "5 weeks",
+          "category": "Cloud",
+          "image": "https://media.istockphoto.com/id/991244994/photo/weather-forecaster-on-green-background.jpg?s=612x612&w=0&k=20&c=Z1UBd95rod2cQ7W0iQy83WCVJ4Jn4wwFgsGGwQQp910=",
+          "image2": "https://images.unsplash.com/photo-1637937459053-c788742455be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1102&q=80",
+          "price": "2000TND"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Data Science",
+      "icon": "/images/data.svg",
+      "introduction": "Data science is the art of uncovering meaningful insights and knowledge from vast and complex sets of data. It's an interdisciplinary field that combines statistical analysis, machine learning, programming, domain expertise, and visualization techniques to extract valuable information and solve intricate problems. In a world inundated with data, data science serves as a guiding light, transforming raw information into actionable strategies and predictions. It empowers organizations and individuals to make informed decisions, predict future trends, optimize processes, and ultimately, drive innovation across various industries.",
+      "courses": [
+        {
+          "id": 201,
+          "title": "Data Analysis with Python",
+          "instructor": "Emily Brown",
+          "duration": "4 weeks",
+          "category": "Data Science",
+          "image": "https://img.freepik.com/premium-photo/young-student-woman-isolated-blue-background-giving-thumbs-up-gesture_1368-435708.jpg?w=2000",
+          "image2": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 202,
+          "title": "Machine Learning Basics",
+          "instructor": "David Lee",
+          "duration": "6 weeks",
+          "category": "Data Science",
+          "image": "https://img.freepik.com/premium-photo/expressive-woman-posing-studio_1194-169575.jpg",
+          "image2": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 203,
+          "title": "Deep Learning Fundamentals",
+          "instructor": "Alex Carter",
+          "duration": "5 weeks",
+          "category": "Data Science",
+          "image": "https://t4.ftcdn.net/jpg/02/34/42/59/360_F_234425903_W9l7Tz3VhYUkVOm2wHMyXijrROsSH5sd.jpg",
+          "image2": "https://plus.unsplash.com/premium_photo-1683120889995-b6a309252981?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+          "price": "2000TND"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Virtual Reality (VR)",
+      "icon": "/images/vr-headset-1.svg",
+      "introduction": "Virtual reality, often abbreviated as VR, is a cutting-edge technology that immerses users in simulated, interactive environments. By leveraging powerful hardware and software, VR creates a sensory-rich experience that tricks our brains into believing we're present in a digital world. Through specialized headsets and controllers, users can explore, interact, and manipulate these artificial environments, blurring the lines between the physical and digital realms. From entertainment and gaming to education, healthcare, and beyond, VR holds the promise of transforming how we experience and interact with information, offering new dimensions for creativity, learning, and exploration.",
+      "courses": [
+        {
+          "id": 301,
+          "title": "Introduction to VR Technology",
+          "instructor": "Sophia Martinez",
+          "duration": "4 weeks",
+          "category": "Virtual Reality",
+          "image": "https://media.istockphoto.com/id/1143328783/photo/young-brunette-woman-showing-pointing-on-red-background.jpg?s=612x612&w=0&k=20&c=JAY9Sib2qhBJpAVhHVduwOYZqbgnCSSmh13shs8DDdU=",
+          "image2": "https://images.unsplash.com/photo-1576633587382-13ddf37b1fc1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 302,
+          "title": "VR Content Creation",
+          "instructor": "William Green",
+          "duration": "6 weeks",
+          "category": "Virtual Reality",
+          "image": "https://img.freepik.com/free-photo/young-bearded-student-guy-red-polo-shirt-with-backpack-holding-notebooks-holding-hand-his-ear-trying-listen-looking-intrigued-standing_141793-99305.jpg",
+          "image2": "https://images.unsplash.com/photo-1605647540924-852290f6b0d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1137&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 303,
+          "title": "VR User Experience Design",
+          "instructor": "Olivia Wilson",
+          "duration": "5 weeks",
+          "category": "Virtual Reality",
+          "image": "https://img.freepik.com/premium-photo/people-youth-leisure-lifestyle-concept-fashionable-beautiful-young-amazed-caucasian-young-female-student-wearing-stylish-clothing-laughing-pointing-finger-away-isolated-red-background_255757-10636.jpghttps://img.freepik.com/free-photo/young-woman-looking-through-fingers-red-blouse-looking-cheerful-front-view_176474-110515.jpg",
+          "image2": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1112&q=80",
+          "price": "2000TND"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Testing",
+      "icon": "/images/computer-chip-1.svg",
+      "introduction": "Testing in Information Technology (IT) is a crucial process that ensures software, applications, systems, and networks meet the required standards of functionality, reliability, and security. It involves a systematic evaluation of various elements, from code and functionalities to user interfaces and performance, aiming to identify and rectify potential issues before deployment. Testing methodologies encompass a wide range of approaches, including manual and automated techniques, to validate and verify that IT products or services meet user expectations and business requirements. Ultimately, thorough testing is fundamental in delivering high-quality, dependable IT solutions, safeguarding against glitches, vulnerabilities, and ensuring a seamless user experience in today's technology-driven landscape.",
+      "courses": [
+        {
+          "id": 401,
+          "title": "Software Testing Fundamentals",
+          "instructor": "Daniel Clark",
+          "duration": "4 weeks",
+          "category": "Testing",
+          "image": "https://img.freepik.com/premium-photo/young-student-brazilian-man-isolated-purple-background-pointing-up-great-idea_1368-365853.jpg",
+          "image2": "https://images.unsplash.com/photo-1585624882829-f92c2d4cd89d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 402,
+          "title": "Automated Testing with Selenium",
+          "instructor": "Sophie Turner",
+          "duration": "6 weeks",
+          "category": "Testing",
+          "image": "https://img.freepik.com/premium-photo/young-caucasian-man-white-isolated-excited-holding-copy-space-palm_1187-91870.jpg",
+          "image2": "https://images.unsplash.com/photo-1600267147646-33cf514b5f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1147&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 403,
+          "title": "Performance Testing Techniques",
+          "instructor": "Robert Johnson",
+          "duration": "5 weeks",
+          "category": "Testing",
+          "image": "https://media.istockphoto.com/id/1178525672/photo/smiling-teenager-student-in-a-hat-and-sweater-holding-folders-standing-isolated-over-purple.jpg?s=612x612&w=0&k=20&c=BskGfvUSKVR4TB875p71sFaS1rJ63w_9cj8mBnHZz7w=",
+          "image2": "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+          "price": "2000TND"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Web Development",
+      "icon": "/images/react-16.svg",
+      "introduction": "Web development is the art and science of creating websites and web applications that we interact with every day on the internet. It involves a blend of coding, design, and content creation to craft compelling and functional online experiences. Web developers use a variety of programming languages like HTML, CSS, and JavaScript along with frameworks and tools to build user-friendly interfaces, ensure responsiveness across devices, and bring dynamic functionalities to life. From simple static web pages to complex e-commerce platforms and interactive web applications, web development plays a pivotal role in shaping our digital world, enabling businesses and individuals to connect, share information, and engage with a global audience.",
+      "courses": [
+        {
+          "id": 501,
+          "title": "HTML and CSS Essentials",
+          "instructor": "Liam Anderson",
+          "duration": "4 weeks",
+          "category": "Web Development",
+          "image": "https://i.pinimg.com/736x/2e/b6/7e/2eb67e633f0ce674933bd3c3d60067fa.jpg",
+          "image2": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 502,
+          "title": "JavaScript for Front-End Development",
+          "instructor": "Emma Davis",
+          "duration": "6 weeks",
+          "category": "Web Development",
+          "image": "https://img.freepik.com/premium-photo/portrait-happy-young-teenager-boy-standing-isolated-yellow-wall-carrying-backpack-textbooks_171337-114615.jpg",
+          "image2": "https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80",
+          "price": "2000TND"
+        },
+        {
+          "id": 503,
+
+          "title": "ReactJS",
+          "instructor": "Noah Martin",
+          "duration": "5 weeks",
+          "category": "Web Development",
+          "image": "https://media.istockphoto.com/id/1415234405/photo/closeup-photo-of-young-funny-grimace-girl-touching-head-forgot-turn-off-computer-home.webp?b=1&s=170667a&w=0&k=20&c=RxVcmVj-nIhPiIVEoIdPURZBimJsIvf-b3jkrCp7dso=",
+          "image2": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+          "price": "2000TND"
+        }
+      ]
+    }
+  ]
+}
