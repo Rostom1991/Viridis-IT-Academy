@@ -16,7 +16,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5005/contact", user)
+      .post("https://viridis-it-academy-api.vercel.app/contact", user)
       .then((response) => {
         setError(false);
         setTimeout(() => {

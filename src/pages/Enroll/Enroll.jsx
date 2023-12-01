@@ -25,7 +25,7 @@ function Enroll() {
     e.preventDefault();
     if (connected) {
       axios
-        .post("http://localhost:5005/enroll", student)
+        .post("https://viridis-it-academy-api.vercel.app/enroll", student)
         .then((response) => {
           setError(false);
           setTimeout(() => {

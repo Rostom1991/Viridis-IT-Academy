@@ -23,7 +23,7 @@ function Signup() {
     e.preventDefault();
     if (password === confirmPassword) {
       axios
-        .post("http://localhost:5005/signup", user)
+        .post("https://viridis-it-academy-api.vercel.app/signup", user)
         .then((response) => {
           setError(false);
           dispatch(login(response.data.user));

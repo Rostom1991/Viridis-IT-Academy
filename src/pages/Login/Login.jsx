@@ -20,7 +20,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5005/login", user)
+      .post("https://viridis-it-academy-api.vercel.app/login", user)
       .then((response) => {
         setError(false);
         dispatch(login(response.data.user));
