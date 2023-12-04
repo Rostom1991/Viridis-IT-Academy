@@ -44,14 +44,18 @@ function About() {
               Learning I.T
             </h1>
             <p className="text-blue-950 font-ntext-lg max-w-md">
-              Lorem ipsum dolor sit amet consecormal tetur adipisicing elit.
-              Sapiente, beatae doloribus!
+              At Viridis IT School, we take pride in nurturing the next
+              generation of tech visionaries, arming them with not just
+              knowledge but also the adaptability and resilience required to
+              thrive in an ever-changing digital era.
             </p>
             <p className="text-gray-500 max-w-md font-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-              exercitationem, quasi veniam, vitae nostrum non accusantium dicta
-              nemo enim culpa, vero repellat doloribus rem officia! Placeat
-              exercitationem nisi nobis recusandae?
+              Moreover, our strategic location within Tunisia's vibrant tech
+              ecosystem provides students with unique opportunities to engage
+              with industry leaders, startups, and tech communities. This
+              environment cultivates a spirit of innovation and collaboration,
+              empowering our students to contribute meaningfully to the
+              ever-evolving tech landscape.
             </p>
           </section>
           {/* <div className="w-72">

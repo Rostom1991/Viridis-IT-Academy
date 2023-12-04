@@ -13,11 +13,11 @@ function Categories() {
   const categories = useSelector((state) => state.academy.categories);
   console.log(categories);
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
     dispatch(setCategories(db.categories));
   }, []);
-  
+
   return (
     <div className="bg-no-repeat bg-cover bg-center bg-[url('https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full  grid place-content-center  ">
       <div className="lg:back hidden"></div>
@@ -27,12 +27,17 @@ function Categories() {
             Browse By <span className="text-blue-500">Category</span>
           </h1>
           <p className="text-gray-500 font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem, dolore rem dicta eos obcaecati earum, recusandae
-            culpa ea labore ullam quis incidunt? Beatae id architecto libero
-            deserunt consectetur quidem consequatur.
+            Discover a spectrum of tech education at our Viridis IT-School,
+            effortlessly sorted into key categories: Cloud, Data Science,
+            Testing, Virtual Reality, and Web Development. Delve into Cloud for
+            scalable innovations, Data Science for insightful exploration,
+            Testing for precision, Virtual Reality for immersive experiences,
+            and Web Development for mastering digital landscapes. Each category
+            opens doors to expertise in transformative tech realms.
           </p>
-          <button className="bg-blue-500 uppercase tracking-wider hover:bg-blue-700 p-4 w-1/2 rounded text-white">
+          <button
+            onClick={() => navigate("/signup")}
+            className="bg-blue-500 uppercase tracking-wider hover:bg-blue-700 p-4 w-1/2 rounded text-white">
             Join
           </button>
         </section>

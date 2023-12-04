@@ -44,9 +44,10 @@ function Students() {
               </h1>
 
               <p className="text-yellow-400 font-light ">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur vero consequatur sit mollitia veniam, fugiat rem,
-                vel laborum voluptatum nesciunt velit quae laboretatis quia"
+                "Studying web development here was a game-changer. The hands-on
+                learning and guidance from mentors made complex coding feel
+                intuitive. Real projects prepared me for industry demands,
+                shaping me into a confident developer."
               </p>
               <hr />
               <div className="flex flex-col gap-2">
@@ -98,9 +99,10 @@ function Students() {
               </h1>
 
               <p className="text-yellow-400 font-light ">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur vero consequatur sit mollitia veniam, fugiat rem,
-                vel laborum voluptatum nesciunt velit quae laboretatis quia"
+                "Studying data science here was transformative. Hands-on
+                learning and mentor guidance made complex concepts clear. Real
+                projects prepared me for the field, building my confidence as a
+                data scientist."
               </p>
               <hr />
               <div className="flex flex-col gap-2">
