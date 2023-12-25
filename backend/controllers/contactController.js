@@ -23,5 +23,12 @@ const postContact = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+const getContacts = async (req, res) => {
+  const contacts = await Contact.find({}).sort({ createdAt: -1 });
+  if (!contacts) {
+    return res.status(404).json({ error: "No contacts yet!" });
+  }
+  res.status(200).json(contacts);
+};
 
-module.exports = { postContact };
+module.exports = { postContact, getContacts };

@@ -1,8 +1,12 @@
 /* eslint-disable no-undef */
-const { enrollStudent } = require("../controllers/enrollController");
+const {
+  enrollStudent,
+  getStudents,
+} = require("../controllers/enrollController");
 
-const router = require("express").Router();
+const router = require("express").Router(); 
 
 router.post("/", enrollStudent);
+router.get("/", getStudents);
 
 module.exports = router;

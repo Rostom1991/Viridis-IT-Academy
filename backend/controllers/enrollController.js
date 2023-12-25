@@ -27,5 +27,12 @@ const enrollStudent = async (req, res) => {
     res.status(500).json({ error: error });
   }
 };
+const getStudents = async (req, res) => {
+  const students = Student.find({}).sort({ createdAt: -1 });
+  if (!students) {
+    return res.status(404).json({ error: "No students enrolled!" });
+  }
+  res.status(200).json(students);
+};
 
-module.exports = { enrollStudent };
+module.exports = { enrollStudent, getStudents };
