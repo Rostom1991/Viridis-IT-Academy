@@ -28,7 +28,7 @@ const enrollStudent = async (req, res) => {
   }
 };
 const getStudents = async (req, res) => {
-  const students = Student.find().sort({ createdAt: -1 });
+  const students = await Student.find().sort({ createdAt: -1 });
   if (!students) {
     return res.status(404).json({ error: "No students enrolled!" });
   }
