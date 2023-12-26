@@ -12,8 +12,8 @@ const port = process.env.PORT;
 const mongo = process.env.MONGO;
 
 //Middlewares
-app.use(cors());
 app.use(express.json());
+app.use(cors());
 app.use("/contact", contactRoutes);
 app.use("/", userRoutes);
 app.use("/enroll", enrollRoutes);
