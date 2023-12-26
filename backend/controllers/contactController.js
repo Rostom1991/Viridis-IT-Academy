@@ -24,7 +24,7 @@ const postContact = async (req, res) => {
   }
 };
 const getContacts = async (req, res) => {
-  const contacts = await Contact.find({}).sort({ createdAt: -1 });
+  const contacts = await Contact.find().sort({ createdAt: -1 });
   if (!contacts) {
     return res.status(404).json({ error: "No contacts yet!" });
   }
