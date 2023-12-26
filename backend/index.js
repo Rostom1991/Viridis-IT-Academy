@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 app.use("/contact", contactRoutes);
 app.use("/enroll", enrollRoutes);
-app.use("/", userRoutes);
+app.use("/user", userRoutes);
 
 mongoose
   .connect(mongo)
