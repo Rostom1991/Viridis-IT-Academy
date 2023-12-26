@@ -14,8 +14,8 @@ const mongo = process.env.MONGO;
 //Middlewares
 app.use(express.json());
 app.use(cors());
-app.use("/contact", contactRoutes);
 app.use("/enroll", enrollRoutes);
+app.use("/contact", contactRoutes);
 app.use("/user", userRoutes);
 
 mongoose

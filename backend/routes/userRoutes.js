@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 const { login, signup } = require("../controllers/userController");
 
 const router = require("express").Router();
